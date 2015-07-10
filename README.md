@@ -10,9 +10,13 @@ particular device to get OID numbers, if needed.
 
 ## Usage
 
-Include `org.luminousmonkey/snmp4clj "0.1.0-SNAPSHOT` in your `:dependencies` key in Leiningen.
-
 [![Clojars Project](http://clojars.org/org.luminousmonkey/snmp4clj/latest-version.svg)](http://clojars.org/org.luminousmonkey/snmp4clj)
+
+Add the library to your Leiningen dependencies. Then just include the namespace:
+
+    (require '[snmp4clj.snmp :as snmp])
+
+    (snmp/get "127.0.0.1" "1.3.6.1.2.1.2.2.1.10.10104")
 
 ## License
 
