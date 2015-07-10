@@ -10,7 +10,9 @@ particular device to get OID numbers, if needed.
 
 ## Usage
 
-FIXME
+Include `org.luminousmonkey/snmp4clj "0.1.0-SNAPSHOT` in your `:dependencies` key in Leiningen.
+
+[![Clojars Project](http://clojars.org/org.luminousmonkey/snmp4clj/latest-version.svg)](http://clojars.org/org.luminousmonkey/snmp4clj)
 
 ## License
 

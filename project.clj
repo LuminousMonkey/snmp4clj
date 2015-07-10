@@ -1,4 +1,4 @@
-(defproject snmp4clj "0.1.0-SNAPSHOT"
+(defproject org.luminousmonkey/snmp4clj "0.1.0-SNAPSHOT"
   :description "Clojure wrapper for the SNMP4J library."
   :url "https://github.com/LuminousMonkey/snmp4clj"
   :license {:name "Eclipse Public License"
